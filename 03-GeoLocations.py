@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 date = '1228'
-df = pd.read_csv('P:\QAC\Projects\datadive17\NotAnAccident\Fred_files\NER_query' + str(date) + '.csv')
+df = pd.read_csv('P:\QAC\Projects\datadive17\NotAnAccident\NotAnAccident_CoreNLP\NER_query' + str(date) + '.csv')
 
 ##--------------------
 ## Gazetteer files

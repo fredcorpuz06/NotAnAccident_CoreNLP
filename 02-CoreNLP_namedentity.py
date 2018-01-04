@@ -6,7 +6,7 @@ import re
 
 
 date = '1228'
-df = pd.read_csv('P:\QAC\Projects\datadive17\NotAnAccident\Fred_files\GDELT_query' + str(date) + '.csv')
+df = pd.read_csv('P:\QAC\Projects\datadive17\NotAnAccident\NotAnAccident_CoreNLP\GDELT_query' + str(date) + '.csv')
 wes_nlp = 'http://athina.wesleyan.edu:9000/'
 	## Other python CoreMLP wrapper
 # from pycorenlp import StanfordCoreNLP

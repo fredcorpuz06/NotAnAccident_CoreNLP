@@ -75,23 +75,80 @@ import requests
 import re
 
 date = '1228'
-df = pd.read_csv('P:\QAC\Projects\datadive17\NotAnAccident\Fred_files\GDELT_query' + str(date) + '.csv')
+df = pd.read_csv('P:\QAC\Projects\datadive17\NotAnAccident\NotAnAccident_CoreNLP\GDELT_query' + str(date) + '.csv')
 wes_nlp = 'http://athina.wesleyan.edu:9000/'
-	## Create a CSV of articles texts to send as data in POST
+
+'''
+	## Create a dict of articles texts to send as data in POST
 article_text = df.iloc[:, -1]
 dict_articles = article_text.to_dict()
 
 single_article = dict_articles[0]
-
+single_article2 = dict_articles[2]
 
 r = requests.post(wes_nlp, data=single_article)
-print r.url
+# print r.url
 print r.status_code
 
+# r_many = requests.post(wes_nlp, data=dict_articles)
+# print r_many.status_code
+
+r2 = requests.post(wes_nlp, data=single_article2)
+# print r.url
+print r2.status_code
+
 r_dic = r.json()
+r2_dic = r2.json()
+r_dic.keys() ## Dict: [u'corefs', u'sentences']
+len(r_dic['sentences']) ## List: 3
+r_dic['sentences'][0].keys() ## Dict: [u'openie', u'index', u'enhancedDependencies', u'basicDependencies', u'parse', u'tokens', u'entitymentions', u'enhancedPlusPlusDependencies', u'kbp']
+len(r_dic['sentences'][0]['openie']) ## List: 1 (**list of dictionaries)
+r_dic['sentences'][0]['openie'][0].keys() ## Dict: [u'subjectSpan', u'relationSpan', u'objectSpan', u'object', u'relation', u'subject']
+
+# triples = r2_dic['sentences'][0]['openie']
+r_dic['sentences'][1]['openie']
+r_dic['sentences'][2]['openie']
+
+sentences = r2_dic['sentences']
+# print triple['object'], ';', triple['relation'], ';', triple['subject']
+'''
+
+	## @params: Article_text is mostly ASCII format
+	## @return: List of Triples [('object1', 'relation1', 'triple1'),('object2', 'relation2', 'triple2') ]
+def openie_post_extract(article_text):
+	r = requests.post(wes_nlp, data=article_text)
+	print r.status_code
+	if r.status_code != 200:
+		return []
+	r_dic = r.json()
+	summaries = []
+	sentences = r_dic['sentences']
+	for sentence in sentences:
+		triples = sentence['openie']
+		for triple in triples:
+			# print triple['object'], ';', triple['relation'], ';', triple['subject']
+			su = triple['object'] , triple['relation'] , triple['subject']
+			summaries.append(su)
+	return summaries
+
+# print '-------------------'
+# r_sum = openie_extract(r_dic)
+# print '-----------------'
+# r2_sum = openie_extract(r2_dic)
+
+df['openie_tuples'] = df['articles'].apply(openie_post_extract)
+	
+	## @params: list of tuples
+	## @action: print
+def l_tup_print(openie_tuple):
+	assert openie_tuple != []
+	for item in openie_tuple:
+		print item[0], ';', item[1], ';', item[2]
+
+# l_tup_print(df['openie_tuples'][3])
 
 
 
-# ner = r_dic['sentences'][1]['entitymentions'] ## list
-# for item in ner:
-# 	print ''
+
+
+df.to_csv('OpenIE_query' + str(date) + '.csv')
