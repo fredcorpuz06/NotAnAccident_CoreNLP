@@ -25,7 +25,7 @@ to = ['lmedina@wesleyan.edu', 'kkoech@wesleyan.edu', 'fcorpuz@wesleyan.edu']
 # to = 'fcorpuz@wesleyan.edu'
 subject = '[Text Lab] Send Email w/ .csv through Python'
 body = 'Test attach \n Hey, what\'s up?\n\n - Fred'
-doc = r'P:\QAC\Projects\datadive17\NotAnAccident\Fred_files\ManualGeoLoc1228_clean.csv'
+doc = r'data/ManualGeoLoc1228_clean.csv'
 
 
 

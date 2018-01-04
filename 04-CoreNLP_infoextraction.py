@@ -75,7 +75,7 @@ import requests
 import re
 
 date = '1228'
-df = pd.read_csv('P:\QAC\Projects\datadive17\NotAnAccident\NotAnAccident_CoreNLP\GDELT_query' + str(date) + '.csv')
+df = pd.read_csv('data/GDELT_query' + str(date) + '.csv')
 wes_nlp = 'http://athina.wesleyan.edu:9000/'
 
 '''
@@ -151,4 +151,4 @@ def l_tup_print(openie_tuple):
 
 
 
-df.to_csv('OpenIE_query' + str(date) + '.csv')
+df.to_csv('data/OpenIE_query' + str(date) + '.csv')

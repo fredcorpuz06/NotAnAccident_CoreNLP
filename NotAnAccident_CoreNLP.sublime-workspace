@@ -1,0 +1,470 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gdel",
+				"gdelt_all"
+			],
+			[
+				"g",
+				"gdelt_titles"
+			],
+			[
+				"htm",
+				"HTML"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "01-GDELT_query.py",
+			"settings":
+			{
+				"buffer_size": 3419,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "02-CoreNLP_namedentity.py",
+			"settings":
+			{
+				"buffer_size": 1587,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "03-GeoLocations.py",
+			"settings":
+			{
+				"buffer_size": 2133,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "04-CoreNLP_infoextraction.py",
+			"settings":
+			{
+				"buffer_size": 4495,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "05-GmailCSV.py",
+			"settings":
+			{
+				"buffer_size": 3302,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "installpac",
+		"selected_items":
+		[
+			[
+				"installpac",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 565.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Frederick Corpuz/Desktop/Github/NotAnAccident_CoreNLP"
+	],
+	"file_history":
+	[
+		"/P/QAC/Projects/datadive17/NotAnAccident/Fred_files/05-GmailCSV.py",
+		"/C/Users/Frederick Corpuz/Desktop/Github/Titanic_ML/script.py",
+		"/C/Users/Frederick Corpuz/Desktop/Github/NotAnAccident_CoreNLP/scratch.py",
+		"/C/Users/Frederick Corpuz/Desktop/Github/Titanic_ML/README.md",
+		"/C/Users/Frederick Corpuz/Desktop/NotAnAccident_CoreNLP/04-CoreNLP_infoextraction.py",
+		"/C/Users/Frederick Corpuz/Desktop/NotAnAccident_CoreNLP/README.md",
+		"/P/QAC/Projects/datadive17/NotAnAccident/Fred_files/04-CoreNLP_infoextraction.py",
+		"/P/QAC/Projects/datadive17/NotAnAccident/Fred_files/03-GeoLocations.py",
+		"/P/QAC/Projects/datadive17/NotAnAccident/Fred_files/02-CoreNLP_namedentity.py",
+		"/P/QAC/Projects/datadive17/NotAnAccident/Fred_files/01-GDELT_query.py",
+		"/P/QAC/Projects/datadive17/NotAnAccident/Fred's files/01-GDELT_query.py",
+		"/C/Users/Frederick Corpuz/Desktop/Python/flask_hello.py",
+		"/P/QAC/Projects/datadive17/NotAnAccident/Fred's files/hello.py",
+		"/C/Users/Frederick Corpuz/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/C/Users/Frederick Corpuz/Desktop/Python/hello.py",
+		"/C/Users/Frederick Corpuz/Desktop/Python/testing_Python.py",
+		"/C/Users/Frederick Corpuz/AppData/Roaming/Sublime Text 3/Packages/User/python27repl.sublime-build",
+		"/C/Users/Frederick Corpuz/AppData/Roaming/Sublime Text 3/Packages/User/Python364.sublime-build",
+		"/C/Users/Frederick Corpuz/AppData/Roaming/Sublime Text 3/Packages/User/python27.sublime-build",
+		"/C/Users/Frederick Corpuz/Desktop/Python/hello",
+		"/C/Program Files/Sublime Text 3/test.py",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw10/hw10.pdf",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw10/list.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw10/hw10.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw10/hw10.h",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw10/stack.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw10/hw10_full.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw8/talpert/tests",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab11/Makefile",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab11/driver.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab11/set.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab11/hash.h",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab11/hash.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw6/rdavino/hw6.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw6/wmurphy/hw6.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw6/bdiamond/tests.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw6/dabramson/hw6.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw6/eweissberg/hw6.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw6/jgretsky/hw6.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab7/list.c",
+		"/C/Users/Frederick Corpuz/Downloads/hw6 (1).c",
+		"/C/Users/Frederick Corpuz/Downloads/hw6.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw6/testing6/tests.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw6/testing6/Makefile",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw4/merge.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw4/hw4.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab5/lab5.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw4/hw4.h",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw4/Makefile",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw4/hw4written.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/hw4/driver.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab4/Makefile",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab4/linsearch.c",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab4/linsearch.h",
+		"/C/Users/Frederick Corpuz/Desktop/COMP211/lab3.c",
+		"/C/Users/Frederick Corpuz/Downloads/linsearch.c",
+		"/C/Users/Frederick Corpuz/Downloads/hw2a.c",
+		"/C/Users/Frederick Corpuz/Desktop/delete.py"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "01-GDELT_query.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3152,
+								3152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1608.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "02-CoreNLP_namedentity.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1548,
+								1548
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 588.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "03-GeoLocations.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "04-CoreNLP_infoextraction.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2203,
+								2203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 953.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "05-GmailCSV.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								400,
+								400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 528.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/PythonREPL.sublime-build",
+	"project": "NotAnAccident_CoreNLP.sublime-project",
+	"replace":
+	{
+		"height": 55.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

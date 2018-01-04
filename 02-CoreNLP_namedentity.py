@@ -6,7 +6,7 @@ import re
 
 
 date = '1228'
-df = pd.read_csv('P:\QAC\Projects\datadive17\NotAnAccident\NotAnAccident_CoreNLP\GDELT_query' + str(date) + '.csv')
+df = pd.read_csv('data/GDELT_query' + str(date) + '.csv')
 wes_nlp = 'http://athina.wesleyan.edu:9000/'
 	## Other python CoreMLP wrapper
 # from pycorenlp import StanfordCoreNLP
@@ -53,7 +53,7 @@ def location_ner(clean_ner):
 df['locations'] = df['ners'].apply(location_ner)
 
 date = 1228
-df.to_csv('NER_query' + str(date) + '.csv')
+df.to_csv('data/NER_query' + str(date) + '.csv')
 
 
 

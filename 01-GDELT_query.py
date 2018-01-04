@@ -113,4 +113,4 @@ def store_pretty(url):
 tv_story['articles'] = tv_story['links'].apply(store_pretty)
 
 # date = '1228'
-# tv_story.to_csv('GDELT_query' + str(date) + '.csv', encoding='utf-8')
+# tv_story.to_csv('data/GDELT_query' + str(date) + '.csv', encoding='utf-8')
