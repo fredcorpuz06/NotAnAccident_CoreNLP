@@ -54,7 +54,7 @@ df['locations'] = df['ners'].apply(location_ner)
 
 date = 1228
 df.to_csv('data/NER_query' + str(date) + '.csv')
-
+print 'Successfully printed csv with NER_query'
 
 
 

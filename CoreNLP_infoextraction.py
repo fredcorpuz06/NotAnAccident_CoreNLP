@@ -145,10 +145,10 @@ def l_tup_print(openie_tuple):
 	for item in openie_tuple:
 		print item[0], ';', item[1], ';', item[2]
 
-# l_tup_print(df['openie_tuples'][3])
-
-
-
+	## Test print
+l_tup_print(df['openie_tuples'][3])
 
 
 df.to_csv('data/OpenIE_query' + str(date) + '.csv')
+# df.to_pickle('data/OpenIE_query' + str(date) + '.pkl')
+print 'Succesfully got OpenIE of articles and print to CSV'

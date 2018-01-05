@@ -10,7 +10,7 @@ from unidecode import unidecode
 ##-------------
 ## Submit Query to GDELT
 ##-------------
-url = 'https://api.gdeltproject.org/api/v2/doc/doc?query=(teen OR teenager OR child OR toddler OR boy OR girl OR "-year-old") (accidentally OR unintentionally) (shot OR killed OR wounded OR fired) (weapon OR gun OR shotgun OR rifle OR pistol) sourceCountry:US&mode=artlist&maxrecords=250&format=HTML&TIMESPAN=3d'
+url = u'https://api.gdeltproject.org/api/v2/doc/doc?query=(teen OR teenager OR child OR toddler OR boy OR girl OR "-year-old") (accidentally OR unintentionally) (shot OR killed OR wounded OR fired) (weapon OR gun OR shotgun OR rifle OR pistol) sourceCountry:US&mode=artlist&maxrecords=250&format=HTML&TIMESPAN=3d'
 
 r = requests.get(url)
 
@@ -19,7 +19,7 @@ gdelt_html = r.text
 
 soup = BeautifulSoup(gdelt_html, 'html.parser')
 
-pretty_soup = soup.prettify()
+# pretty_soup = soup.prettify()
 	## Finding all hyperlinks and store into a list
 a_tags = soup.find_all('a')
 gdelt_links = []
@@ -47,6 +47,7 @@ print len(gdelt_df_nodups)
 
 
 gdelt = gdelt_df_nodups
+
 #print gdelt.head()
 
 # df = df.dropna(axis=0, how='any')
@@ -112,5 +113,6 @@ def store_pretty(url):
 	## Get text from URL
 tv_story['articles'] = tv_story['links'].apply(store_pretty)
 
-# date = '1228'
-# tv_story.to_csv('data/GDELT_query' + str(date) + '.csv', encoding='utf-8')
+date = '1228'
+tv_story.to_csv('data/GDELT_query' + str(date) + '.csv', encoding='utf-8')
+print 'Succesfully output CSV'

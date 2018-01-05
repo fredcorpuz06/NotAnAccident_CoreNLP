@@ -60,3 +60,5 @@ man_loc['best_loc'] = man_loc[['county', 'places']].apply(better_place, axis=1)
 
  	## Merge to get the Lat and Long
 man_coords = pd.merge(man_loc, gaz, how='left', left_on=['usps','best_loc'], right_on=['USPS','NAME'])
+print man_coords.head()
+print 'Successfully got Lat and Long'

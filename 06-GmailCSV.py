@@ -21,8 +21,8 @@ gmail_user = 'fred.corpuz06@gmail.com'
 gmail_password = 'qactextlabpython'
 
 	## Email Metadata
-to = ['lmedina@wesleyan.edu', 'kkoech@wesleyan.edu', 'fcorpuz@wesleyan.edu']
-# to = 'fcorpuz@wesleyan.edu'
+# to = ['lmedina@wesleyan.edu', 'kkoech@wesleyan.edu', 'fcorpuz@wesleyan.edu']
+to = ['fcorpuz@wesleyan.edu']
 subject = '[Text Lab] Send Email w/ .csv through Python'
 body = 'Test attach \n Hey, what\'s up?\n\n - Fred'
 doc = r'data/ManualGeoLoc1228_clean.csv'
