@@ -1,4 +1,4 @@
-# [DEPREACATED] NotAnAccident_CoreNLP 
+# [DEPRECATED] NotAnAccident_CoreNLP 
 
 ## What is this project?
 
